@@ -1,0 +1,54 @@
+#==============================================================================
+#
+# 使用モデルリストスクリプトファイル [model_data.txt]
+# Author : REIKISHIDA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 29
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------#
+# 							プレイヤーモデル[14パーツ]                     #
+#--------------------------------------------------------------------------#
+MODEL_FILENAME = data/MODEL/player/0_player_body.x			# [0]体
+MODEL_FILENAME = data/MODEL/player/1_player_head.x			# [1]頭
+MODEL_FILENAME = data/MODEL/player/2_player_armR01.x		# [2]右二の腕
+MODEL_FILENAME = data/MODEL/player/3_player_armR02.x		# [3]右腕
+MODEL_FILENAME = data/MODEL/player/4_player_handR.x			# [4]右手
+MODEL_FILENAME = data/MODEL/player/5_player_armL01.x		# [5]左二の腕
+MODEL_FILENAME = data/MODEL/player/6_player_armL02.x		# [6]左腕
+MODEL_FILENAME = data/MODEL/player/7_player_handL.x			# [7]左手
+MODEL_FILENAME = data/MODEL/player/8_player_legR01.x		# [8]右腿
+MODEL_FILENAME = data/MODEL/player/9_player_legR02.x		# [9]右脚
+MODEL_FILENAME = data/MODEL/player/10_player_legR03.x		# [10]右足
+MODEL_FILENAME = data/MODEL/player/11_player_legL01.x		# [11]左腿
+MODEL_FILENAME = data/MODEL/player/12_player_legL02.x		# [12]左脚
+MODEL_FILENAME = data/MODEL/player/13_player_legL03.x		# [13]左足
+
+#--------------------------------------------------------------------------#
+# 							敵モデル[15パーツ]                             #
+#--------------------------------------------------------------------------#
+MODEL_FILENAME = data/MODEL/enemy/00_enemy_Skeleton_body.x			# [0(14)]体
+MODEL_FILENAME = data/MODEL/enemy/01_enemy_Skeleton_neck.x			# [1]首
+MODEL_FILENAME = data/MODEL/enemy/02_enemy_Skeleton_head.x			# [2]頭
+MODEL_FILENAME = data/MODEL/enemy/03_enemy_Skeleton_spine.x			# [3]背骨
+MODEL_FILENAME = data/MODEL/enemy/04_enemy_Skeleton_hip.x			# [4]腰
+MODEL_FILENAME = data/MODEL/enemy/05_enemy_Skeleton_armR.x			# [5]右二の腕
+MODEL_FILENAME = data/MODEL/enemy/06_enemy_Skeleton_handR.x			# [6]右手
+MODEL_FILENAME = data/MODEL/enemy/07_enemy_Skeleton_armL.x			# [7]左二の腕
+MODEL_FILENAME = data/MODEL/enemy/08_enemy_Skeleton_handL.x			# [8]左手
+MODEL_FILENAME = data/MODEL/enemy/09_enemy_Skeleton_R_legA.x		# [9]右腿
+MODEL_FILENAME = data/MODEL/enemy/10_enemy_Skeleton_R_legB.x		# [10]右脚
+MODEL_FILENAME = data/MODEL/enemy/11_enemy_Skeleton_R_foot.x		# [11]右足
+MODEL_FILENAME = data/MODEL/enemy/12_enemy_Skeleton_L_legA.x		# [12]左腿
+MODEL_FILENAME = data/MODEL/enemy/13_enemy_Skeleton_L_legB.x		# [13]左脚
+MODEL_FILENAME = data/MODEL/enemy/14_enemy_Skeleton_L_foot.x		# [14]左足
+

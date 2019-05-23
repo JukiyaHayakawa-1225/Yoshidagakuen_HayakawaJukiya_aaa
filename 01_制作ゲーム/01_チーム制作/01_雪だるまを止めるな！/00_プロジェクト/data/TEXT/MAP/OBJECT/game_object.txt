@@ -1,0 +1,338 @@
+#==============================================================================
+#
+# 『モデルビューワ』スクリプトファイル [model.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデル配置情報
+#------------------------------------------------------------------------------
+#------------------
+# 600地点
+#------------------
+MODELSET 
+	TYPE = 4
+	POS = 60 0 600
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 50 600
+	ROT = 0 0 0
+	SIZE = 4 6 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 4
+	POS = -60 0 600
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 1200地点
+#------------------
+MODELSET 
+	TYPE = 4
+	POS = 60 0 1200
+	ROT = 0 0 0
+	SIZE = 2 2 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 0 1200
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 4
+	POS = -60 0 1200
+	ROT = 0 0 0
+	SIZE = 2 2 2
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 1800地点
+#------------------
+MODELSET 
+	TYPE = 0
+	POS = 60 0 1800
+	ROT = 0 0 0
+	SIZE = 3 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 8
+	POS = 60 30 1800
+	ROT = 0 3.14 0
+	SIZE = 2 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 0
+	POS = -60 0 1800
+	ROT = 0 0 0
+	SIZE = 3 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 8
+	POS = -60 30 1800
+	ROT = 0 0 0
+	SIZE = 2 2 1.5
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 2400地点
+#------------------
+MODELSET 
+	TYPE = 0
+	POS = 30 0 2400
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 6
+	POS = 30 30 2400
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 0
+	POS = -30 0 2400
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 6
+	POS = -30 30 2400
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 3000地点
+#------------------
+MODELSET 
+	TYPE = 4
+	POS = 60 0 3000
+	ROT = 0 0 0
+	SIZE = 2 3 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 0 3000
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 4
+	POS = -60 0 3000
+	ROT = 0 0 0
+	SIZE = 2 3 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 80 3000
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 3600地点
+#------------------
+MODELSET 
+	TYPE = 0
+	POS = 40 0 3600
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 7
+	POS = 40 30 3600
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 0
+	POS = -40 0 3600
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 7
+	POS = -40 30 3600
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 4200地点
+#------------------
+MODELSET 
+	TYPE = 4
+	POS = 60 0 4200
+	ROT = 0 0 0
+	SIZE = 2 2 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 0 4200
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 4
+	POS = -60 0 4200
+	ROT = 0 0 0
+	SIZE = 2 2 2
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 4800地点
+#------------------
+MODELSET 
+	TYPE = 4
+	POS = 60 0 4800
+	ROT = 0 0 0
+	SIZE = 2 3 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 0 4800
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 4
+	POS = -60 0 4800
+	ROT = 0 0 0
+	SIZE = 2 3 2
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 5
+	POS = 0 80 4800
+	ROT = 0 0 0
+	SIZE = 4 6 2
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 5400地点
+#------------------
+MODELSET 
+	TYPE = 0
+	POS = 40 0 5400
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 7
+	POS = 40 30 5400
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 0
+	POS = -40 0 5400
+	ROT = 0 0 0
+	SIZE = 3 2 3
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 7
+	POS = -40 30 5400
+	ROT = 0 0 0
+	SIZE = 2 2 3
+	HIT = 1
+END_MODELSET
+
+#------------------
+# 5800地点
+#------------------
+MODELSET 
+	TYPE = 0
+	POS = 60 0 5800
+	ROT = 0 0 0
+	SIZE = 3 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 8
+	POS = 60 30 5800
+	ROT = 0 3.14 0
+	SIZE = 2 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 0
+	POS = -60 0 5800
+	ROT = 0 0 0
+	SIZE = 3 2 1.5
+	HIT = 1
+END_MODELSET
+
+MODELSET 
+	TYPE = 8
+	POS = -60 30 5800
+	ROT = 0 0 0
+	SIZE = 2 2 1.5
+	HIT = 1
+END_MODELSET
+
+END_SCRIPT		# この行は絶対消さないこと！

@@ -1,0 +1,35 @@
+#==============================================================================
+#
+# 『マップ』ファイル [map.txt]
+# Author : Jukiya Hayakawa
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 9
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/Tree00sita.x			# [0]木(下)
+MODEL_FILENAME = data/MODEL/penguin.x				# [1]ペンギン
+MODEL_FILENAME = data/MODEL/PresentBox.x			# [2]プレゼントボックス
+MODEL_FILENAME = data/MODEL/kisaku.x				# [3]木の柵
+MODEL_FILENAME = data/MODEL/tate.x					# [4]縦ブロック
+MODEL_FILENAME = data/MODEL/yoko.x					# [5]横ブロック
+MODEL_FILENAME = data/MODEL/Tree00ue.x				# [6]木(上)0
+MODEL_FILENAME = data/MODEL/Tree01ue.x				# [7]木(上)1
+MODEL_FILENAME = data/MODEL/Tree02ue.x				# [8]木(90°)2
+
+#==============================================================================
+# マップ情報
+#==============================================================================
+MAPSET
+	FILENAME_FIELD = data/TEXT/MAP/FIELD/field.txt		#フィールドの情報テキスト
+	FILENAME_OBJECT = data/TEXT/MAP/OBJECT/object.txt	#配置物の情報テキスト
+END_MAPSET
+
+END_SCRIPT		# この行は絶対消さないこと！
